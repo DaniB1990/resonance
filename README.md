@@ -136,18 +136,6 @@ Files are parsed sequentially using a worker where available, with an in-page fa
 
 For contributions, describe the behavior changed and relevant verification. Use fictional fixtures for reproducible examples and bug reports; do not attach personal exports.
 
-## Related projects
-
-These projects address related use cases. The descriptions below summarize their repository documentation, reviewed on October 19, 2026; they are not performance or security evaluations.
-
-| Project | Focus |
-| --- | --- |
-| [Your Spotify](https://github.com/Yooooomi/your_spotify) | Self-hosted listening tracking with a server that polls the Spotify API and a statistics dashboard |
-| [Spotilyze](https://github.com/flaser381/spotilyze) | Local analysis of exported listening history, with genre metadata, listening-phase analysis, and optional AI reports |
-| [SYSH](https://github.com/barmiro/SYSH) | Self-hosted streaming-history dashboard with an Android client. Its README reports import difficulties following Spotify API changes |
-
-Resonance focuses on dependency-free, browser-local analysis of imported JSON exports. It requires no API credentials or database server and documents calculations from the fields available in those exports.
-
 ## License
 
 MIT. See [LICENSE](LICENSE).
